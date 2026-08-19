@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt – OŠ „Sonja Marinković“</title>
+<meta name="description" content="Adresa, telefon, email i kontakt forma OŠ „Sonja Marinković“.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-row">
+      <a href="index.html" class="logo">
+        <span class="logo-badge"><i class="fas fa-graduation-cap"></i></span>
+        <span class="logo-text"><h2>OŠ „Sonja Marinković“</h2><span>Osnovna škola</span></span>
+      </a>
+      <nav class="main-nav">
+      <a href="index.html" class="nav-link">Početna</a>
+      <a href="o-skoli.html" class="nav-link">O školi</a>
+      <a href="nastava.html" class="nav-link">Nastava</a>
+      <a href="vesti.html" class="nav-link">Vesti</a>
+      <a href="dokumenta.html" class="nav-link">Dokumenta</a>
+      <a href="galerija.html" class="nav-link">Galerija</a>
+      <a href="kontakt.html" class="nav-link active">Kontakt</a>
+      </nav>
+      <div class="header-actions">
+        <a href="upis-prvaka.html" class="btn btn-highlight">Upis prvaka</a>
+        <button class="hamburger" aria-label="Meni"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:16px;">
+    <div class="container" style="display:block;">
+      <h1>Kontakt</h1>
+      <p style="font-size:18px;">Slobodno nas kontaktirajte za sva pitanja u vezi sa nastavom, upisom ili radom škole.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container" style="display:flex;gap:56px;flex-wrap:wrap;">
+      <div style="flex:1 1 340px;">
+        <div class="info-row"><div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div><div><div class="label">Adresa</div><div class="value">Alaska 17, 11080 Zemun</div></div></div>
+        <div class="info-row"><div class="icon-circle"><i class="fas fa-phone"></i></div><div><div class="label">Telefon (sekretarijat)</div><div class="value">011/261-27-53</div></div></div>
+        <div class="info-row"><div class="icon-circle"><i class="fas fa-envelope"></i></div><div><div class="label">Email</div><div class="value">os.sonjamarinkovic@open.telekom.rs</div></div></div>
+        <div class="info-row"><div class="icon-circle"><i class="fas fa-clock"></i></div><div><div class="label">Radno vreme sekretarijata</div><div class="value">Ponedeljak &ndash; petak: 08:00 &ndash; 19:00</div></div></div>
+        <div class="info-row"><div class="icon-circle"><i class="fas fa-user-tie"></i></div><div><div class="label">Direktor škole</div><div class="value">Direktorka: Jasmina Filipović</div></div></div>
+      </div>
+      <div style="flex:1 1 420px;">
+        <div class="form-card">
+          <h3>Pošaljite nam poruku</h3>
+          <form id="contact-form">
+            <div class="form-group"><label>Ime i prezime *</label><input type="text" required placeholder="Marija Petrović"></div>
+            <div class="form-group"><label>Email *</label><input type="email" required placeholder="marija@primer.rs"></div>
+            <div class="form-group"><label>Predmet *</label><input type="text" required placeholder="Npr. pitanje o upisu"></div>
+            <div class="form-group"><label>Poruka *</label><textarea required placeholder="Vaša poruka..."></textarea></div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Pošalji</button>
+          </form>
+          <p class="form-note">Demo forma &mdash; na statičkom (GitHub) hostingu poruke se ne šalju bez dodatnog servisa (npr. Formspree).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-alt" style="padding:0;">
+    <iframe class="map-embed" loading="lazy" src="https://maps.google.com/maps?q=Alaska%2017%2C%20Zemun%2C%20Beograd&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>OŠ „Sonja Marinković“</h4>
+          <p>Osnovna škola u Zemunu u kojoj učenici uče, istražuju i rastu u podsticajnom i sigurnom okruženju.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Navigacija</h4>
+          <a href="index.html">Početna</a>
+          <a href="o-skoli.html">O školi</a>
+          <a href="nastava.html">Nastava</a>
+          <a href="vesti.html">Vesti</a>
+          <a href="dokumenta.html">Dokumenta</a>
+          <a href="galerija.html">Galerija</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <p style="margin-bottom:6px;">Alaska 17, 11080 Zemun</p>
+          <a href="tel:+381112612753">011/261-27-53</a>
+          <a href="mailto:os.sonjamarinkovic@open.telekom.rs">os.sonjamarinkovic@open.telekom.rs</a>
+        </div>
+        <div>
+          <h4>Upis prvaka</h4>
+          <p>Upisujete dete u prvi razred? Sve informacije o upisu na jednom mestu.</p>
+          <a href="upis-prvaka.html" class="btn btn-highlight" style="margin-top:6px;">Upis prvaka</a>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 OŠ „Sonja Marinković“. Sva prava zadržana.</div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
